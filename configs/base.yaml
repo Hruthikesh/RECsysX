@@ -1,0 +1,36 @@
+# Shared settings. Model configs are merged on top of this file.
+seed: 42
+device: auto            # auto | cuda | cpu
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  results_dir: results
+  checkpoint_dir: checkpoints
+
+data:
+  name: ml-1m
+  positive_threshold: 4   # ratings >= 4 count as positive feedback
+
+split:
+  # Global time cutoff: every rating before the 80% timestamp quantile is training data.
+  cutoff_quantile: 0.8
+  # Users with positives after the cutoff are split into validation and test users.
+  val_user_fraction: 0.5
+  seed: 2024
+  # user groups are defined by the number of training positives
+  user_sparse_max: 20     # 1..20 -> sparse, 0 -> cold, >20 -> warm
+  item_sparse_max: 10     # same idea for items
+  head_item_share: 0.2    # top 20% of items by training popularity = "head"
+
+eval:
+  ks: [5, 10, 20]
+  primary_metric: recall@20
+  batch_size: 1024
+  min_user_positives: 1
+
+tracking:
+  wandb: false            # set true (or --wandb) to also log to Weights & Biases
+  project: recsysx
+  entity: null
+  mode: null              # null -> W&B default; "offline" works without an account

@@ -1,0 +1,33 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+build/
+dist/
+
+# data (MovieLens license does not allow redistribution)
+data/raw/
+data/processed/
+
+# model artifacts - large, regenerate with the training scripts
+checkpoints/*
+!checkpoints/.gitkeep
+artifacts/
+
+# experiment tracking
+wandb/
+.env
+*.env
+
+# local postgres data directory (pgserver / initdb)
+.pgdata/
+
+# misc
+*.log
+.DS_Store
+Thumbs.db
+RECsysX_Final.zip

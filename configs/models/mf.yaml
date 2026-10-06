@@ -1,0 +1,11 @@
+model: mf
+embedding_dim: 64
+lr: 0.001
+l2_reg: 0.0001          # applied to the embeddings in each batch (standard BPR-MF regularisation)
+batch_size: 4096
+epochs: 200
+patience: 20            # same for every trained model; 10 stopped the (noisier) GNN runs too early
+eval_every: 1
+num_negatives: 1
+user_id_dropout: 0.1    # trains the unknown-user row used for cold users
+item_id_dropout: 0.0

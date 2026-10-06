@@ -1,0 +1,13 @@
+model: node2vec
+embedding_dim: 64
+walk_length: 20
+context_size: 10
+walks_per_node: 10
+num_negative_samples: 1
+p: 1.0
+q: 1.0
+lr: 0.01
+batch_size: 128         # start nodes per batch
+epochs: 30
+patience: 5
+score: dot              # dot | cosine | hadamard_lr

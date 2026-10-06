@@ -1,0 +1,9 @@
+{
+  "lambda": 0.9,
+  "similarity": "genre",
+  "rule": "max genre diversity@10 with validation ndcg@10 >= 98% of lambda=1",
+  "ranker": "xgb, temporal",
+  "n_validation_users": 881,
+  "val_ndcg@10": 0.3227363327539757,
+  "val_ndcg@10_no_mmr": 0.3243456955151407
+}

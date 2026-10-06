@@ -1,0 +1,33 @@
+# Written by `python scripts/run_experiments.py tune`. Overrides on top of configs/models/*.yaml,
+# chosen by validation recall@20 only (see results/tables/tuning_results.csv).
+gat:
+  heads: 8
+  lr: 0.005
+  num_layers: 1
+graphsage:
+  jk: cat
+  l2_reg: 0.001
+  num_layers: 1
+hybrid:
+  conv: lgc
+  dropout: 0.0
+  embedding_dim: 64
+  jk: mean
+  l2_reg: 0.0001
+  lr: 0.005
+  num_layers: 1
+itemknn:
+  shrink: 100.0
+  top_k_neighbors: 200
+lightgcn:
+  lr: 0.005
+  num_layers: 1
+mf: {}
+node2vec:
+  context_size: 5
+  p: 0.25
+  q: 1.0
+popularity_recent:
+  recent_days: 7
+two_tower:
+  temperature: 0.2

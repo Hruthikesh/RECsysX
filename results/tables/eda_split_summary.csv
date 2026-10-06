@@ -1,0 +1,7 @@
+role,group,users,median_train_positives,median_eval_positives,eval_positives
+val,warm,488,107.5,23.0,22825
+val,sparse,72,9.0,38.0,4286
+val,cold,321,0.0,58.0,26886
+test,warm,487,103.0,26.0,24770
+test,sparse,73,6.0,28.0,4296
+test,cold,321,0.0,51.0,29201

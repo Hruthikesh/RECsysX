@@ -1,0 +1,4 @@
+model: itemknn
+# item-item cosine similarity on the training positives, keep the top neighbours per item
+top_k_neighbors: 200
+shrink: 10.0

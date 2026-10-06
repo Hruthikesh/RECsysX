@@ -1,0 +1,18 @@
+{
+  "plain_80_10_10_split": {
+    "val_users": 1103,
+    "val_users_without_history": 611,
+    "test_users": 1188,
+    "test_users_without_history": 29
+  },
+  "top100_liked_overlap_before_after_cutoff": 82,
+  "top100_newcomers": 18,
+  "top100_newcomers_released_2000": 9,
+  "busiest_month": "2000-11",
+  "busiest_month_ratings": 290793,
+  "movies_with_first_positive_after_cutoff_and_eval_positives": 64,
+  "warm_users_median_train_positives": 68.0,
+  "test_users_targets_median": 35.0,
+  "test_users_targets_mean": 66.13734392735527,
+  "simulated_new_items": 371
+}

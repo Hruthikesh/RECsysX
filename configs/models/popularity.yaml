@@ -1,0 +1,3 @@
+model: popularity
+variant: global         # global | recent | demographic
+recent_days: 30         # window for the "recent" variant, counted back from the cutoff

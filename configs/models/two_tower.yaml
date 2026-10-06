@@ -1,0 +1,13 @@
+model: two_tower
+embedding_dim: 64       # output of each tower
+id_dim: 64
+hidden_dim: 256
+dropout: 0.1
+temperature: 0.1        # softmax temperature on cosine similarity
+log_q_correction: true
+lr: 0.001
+batch_size: 4096        # = number of in-batch negatives
+epochs: 200
+patience: 20
+user_id_dropout: 0.1    # lets the towers fall back on features for unseen users/items
+item_id_dropout: 0.1

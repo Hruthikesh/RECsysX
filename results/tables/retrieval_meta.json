@@ -1,0 +1,6 @@
+{
+  "best_retriever_by_val_recall@200": "hybrid",
+  "seed": 42,
+  "faiss_threads": 16,
+  "note": "latency measured on CPU (FAISS flat/IVF/HNSW, faiss-cpu)"
+}

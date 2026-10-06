@@ -1,0 +1,49 @@
+model,item_bucket,targets,hit_rate@20
+Popularity,cold (0 train positives),65,0.0
+Popularity,head (top 20%),40982,0.1042896881557757
+Popularity,mid,15473,0.0
+Popularity,tail (bottom 40%),1747,0.0
+Popularity (recent),cold (0 train positives),65,0.0
+Popularity (recent),head (top 20%),40982,0.10675418476404275
+Popularity (recent),mid,15473,0.0
+Popularity (recent),tail (bottom 40%),1747,0.0
+Popularity (demographic),cold (0 train positives),65,0.0
+Popularity (demographic),head (top 20%),40982,0.10992630911131716
+Popularity (demographic),mid,15473,0.0
+Popularity (demographic),tail (bottom 40%),1747,0.0
+ItemKNN,cold (0 train positives),65,0.0
+ItemKNN,head (top 20%),40982,0.11107315406763946
+ItemKNN,mid,15473,0.00032314354036062817
+ItemKNN,tail (bottom 40%),1747,0.0
+MF-BPR,cold (0 train positives),65,0.0
+MF-BPR,head (top 20%),40982,0.11165877702405934
+MF-BPR,mid,15473,0.002132747366380146
+MF-BPR,tail (bottom 40%),1747,0.0
+Two-Tower,cold (0 train positives),65,0.03076923076923077
+Two-Tower,head (top 20%),40982,0.1042896881557757
+Two-Tower,mid,15473,0.003683836360111161
+Two-Tower,tail (bottom 40%),1747,0.0
+Node2Vec,cold (0 train positives),65,0.0
+Node2Vec,head (top 20%),40982,0.09994631789566151
+Node2Vec,mid,15473,0.001227945453370387
+Node2Vec,tail (bottom 40%),1747,0.0011448196908986834
+GraphSAGE,cold (0 train positives),65,0.0
+GraphSAGE,head (top 20%),40982,0.10785222780733004
+GraphSAGE,mid,15473,0.00400697990047179
+GraphSAGE,tail (bottom 40%),1747,0.0005724098454493417
+GAT,cold (0 train positives),65,0.0
+GAT,head (top 20%),40982,0.1064613732858328
+GAT,mid,15473,0.004265494732760292
+GAT,tail (bottom 40%),1747,0.0022896393817973667
+LightGCN,cold (0 train positives),65,0.0
+LightGCN,head (top 20%),40982,0.11236640476306671
+LightGCN,mid,15473,0.002326633490596523
+LightGCN,tail (bottom 40%),1747,0.0011448196908986834
+Hybrid (id+content+graph),cold (0 train positives),65,0.0
+Hybrid (id+content+graph),head (top 20%),40982,0.11302523058903909
+Hybrid (id+content+graph),mid,15473,0.002649777030957151
+Hybrid (id+content+graph),tail (bottom 40%),1747,0.0005724098454493417
+Final pipeline,cold (0 train positives),65,0.0
+Final pipeline,head (top 20%),40982,0.11690498267532087
+Final pipeline,mid,15473,0.0010340593291540102
+Final pipeline,tail (bottom 40%),1747,0.0

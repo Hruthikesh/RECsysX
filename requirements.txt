@@ -1,0 +1,29 @@
+# Tested with Python 3.11 on Windows 11, RTX 3050 6GB (CUDA 12.4 wheels).
+#
+# PyTorch + the PyG extension wheels depend on your CUDA version, install them first:
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+#   pip install torch_cluster pyg_lib -f https://data.pyg.org/whl/torch-2.5.0+cu124.html
+# (CPU only: use .../whl/cpu and torch-2.5.0+cpu.html instead)
+torch==2.5.1
+torch_geometric==2.6.1   # 2.7+ Node2Vec needs pyg-lib>=0.6 which has no Windows wheel for torch 2.5 yet
+torch_cluster==1.6.3     # biased (p, q) random walks for Node2Vec
+
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.6
+pyarrow==25.0.1
+scikit-learn==1.9.1
+xgboost==3.2.0
+faiss-cpu==1.15.1
+matplotlib==3.11.2
+networkx==3.6.1
+pyyaml==6.0.3
+tqdm==4.70.1
+
+wandb==0.30.0
+psycopg[binary]==3.3.6
+
+pytest==9.1.1
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.4.0

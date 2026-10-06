@@ -1,0 +1,95 @@
+section,model,group,recall@20,recall@20_std,ndcg@20,ndcg@20_std,coldtgt/recall@20_among_new,coldtgt/ndcg@20_among_new,coldtgt/recall@20_full_catalog,coldtgt/recall@100_full_catalog,cold_item_share_in_top20,test/recall@20,coldtgt/recall@20_among_new_std,coldtgt/ndcg@20_among_new_std,coldtgt/recall@20_full_catalog_std,coldtgt/recall@100_full_catalog_std,cold_item_share_in_top20_std,test/recall@20_std,n_seeds,key,k_revealed,method,n_users,seed,recall@10,ndcg@10,mrr,run
+user group (natural split),Popularity,warm,0.092736564733519,,0.2149956064486035,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Popularity,sparse,0.0899686405129881,,0.2265252204781146,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Popularity,cold,0.1144285908930288,,0.3703401494412191,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Popularity (recent),warm,0.1115844225875865,,0.2292394163634502,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Popularity (recent),sparse,0.089538305839746,,0.2186784215588554,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Popularity (recent),cold,0.1171223670153764,,0.3690683072883354,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Popularity (demographic),warm,0.1054985460123555,,0.231166695417755,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Popularity (demographic),sparse,0.0983043975068366,,0.241507107564964,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Popularity (demographic),cold,0.1187969227024927,,0.3828054882301319,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),ItemKNN,warm,0.1080606165054973,,0.2463556281576784,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),ItemKNN,sparse,0.1161282596236599,,0.2693756883166794,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),ItemKNN,cold,0.1144285908930288,,0.3703401494412191,,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),MF-BPR,warm,0.1167681362539224,0.003409720009368819,0.2549578958432994,0.0034009165753728673,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),MF-BPR,sparse,0.10666740557212107,0.005260308072054148,0.2606248564317434,0.006471291831902647,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),MF-BPR,cold,0.11222073304797774,0.0011588094175962972,0.36309539741668506,0.005056471542818735,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Two-Tower,warm,0.1209081718539483,0.003018055609335154,0.23461725927574628,0.003717861422365925,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Two-Tower,sparse,0.1314019357189925,0.009602185377874765,0.27028995366136005,0.004716077486289562,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Two-Tower,cold,0.10981270622230739,0.000968650682462691,0.3583534293212393,0.004846723106266619,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Node2Vec,warm,0.10960413914286486,0.007649454457174313,0.22628337973347482,0.004458580901157651,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Node2Vec,sparse,0.0174187748776485,0.008822759457137473,0.043805463853530034,0.021943230716337095,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Node2Vec,cold,0.11522235047919116,0.0007305052287008373,0.3704745085257704,0.0016272769505902237,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),GraphSAGE,warm,0.11152274651133054,0.00043620386817989193,0.24528352229040218,0.0059686813216487285,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),GraphSAGE,sparse,0.1119393626681376,0.0039941118280672995,0.2506962361626501,0.008652461991187672,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),GraphSAGE,cold,0.1135926653533823,0.0028018164917155137,0.3626977199364027,0.008755959541743496,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),GAT,warm,0.11496905751072069,0.0031410087984023714,0.24084008103911977,0.0020119278791786805,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),GAT,sparse,0.11311205656871624,0.0025300512314694623,0.24900089258836744,0.0006919604181549951,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),GAT,cold,0.11233569175353103,0.00029320387003538154,0.3631966202821193,0.0025401960870459223,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),LightGCN,warm,0.12490438074429495,0.0035555078102211288,0.25797559081666405,0.0014223932256500565,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),LightGCN,sparse,0.13273999636189396,0.001778357743824223,0.28090439340952106,0.0033226833496730864,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),LightGCN,cold,0.1121077456379454,0.0011458250776085106,0.3631548940493781,0.002373821262037211,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Hybrid (id+content+graph),warm,0.12617454974277517,0.0045658640341177635,0.25516189055987654,0.003131112387077885,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Hybrid (id+content+graph),sparse,0.1349922994478767,0.010708571348722917,0.284158070796298,0.0016579729646248517,,,,,,,,,,,,,,,,,,,,,,
+user group (natural split),Hybrid (id+content+graph),cold,0.11375014359015971,0.0016774529355409631,0.36836959407131453,0.00302702667658678,,,,,,,,,,,,,,,,,,,,,,
+item cold-start (10% of items held out),Popularity,,,,,,0.0358134634498628,0.0218010370673676,0.0,0.0,0.0,0.0975105310807783,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),ItemKNN,,,,,,0.0358134634498628,0.0218010370673676,0.0,0.0,0.0,0.1081842906966648,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),MF-BPR,,,,,,0.0482630452545574,0.0306165486750219,0.0,0.0,0.0,0.11395700716587,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),Two-Tower,,,,,,0.1259567459867022,0.0796399468998899,0.0020190275539386,0.0380053161417503,0.0468785471055618,0.1073112805841157,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),Node2Vec,,,,,,0.0378796216117339,0.0242240109857408,0.0017423685619737,0.0086836395162978,0.0353007945516458,0.0994899562705063,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),GraphSAGE,,,,,,0.0372566742951772,0.0278865086046576,0.0,0.0,0.0,0.1070871049417171,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),GAT,,,,,,0.0436630620864346,0.0280138433343541,0.0,0.0,0.0,0.1123331337120927,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),LightGCN,,,,,,0.0506775213687755,0.0386273976323999,0.0,0.0,0.0,0.1153534244776078,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),Hybrid (id+content+graph),,,,,,0.1355787511497844,0.1064288068407187,0.0,0.0016890403960326,0.0001135073779795,0.1185350115643872,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),Content + graph (no id),,,,,,0.1104206920161677,0.07006960576095,0.0,0.0020687520291135,0.000510783200908,0.110137394206925,,,,,,,1.0,,,,,,,,,
+item cold-start (10% of items held out),Content only,,,,,,0.0995262193027774,0.0619228575470838,0.0,0.0001321915423206,0.0022133938706015,0.0936686001474427,,,,,,,1.0,,,,,,,,,
+new-user onboarding (k revealed ratings),Popularity,,0.098571136433069,,0.3118570623911821,,,,,,,,,,,,,,,popularity,0.0,as-is,298.0,42.0,0.0549194074937047,0.333728422828704,0.5131451279481491,popularity_k0
+new-user onboarding (k revealed ratings),Popularity,,0.098571136433069,,0.3118570623911821,,,,,,,,,,,,,,,popularity,1.0,as-is,298.0,42.0,0.0549194074937047,0.333728422828704,0.5131451279481491,popularity_k1
+new-user onboarding (k revealed ratings),Popularity,,0.098571136433069,,0.3118570623911821,,,,,,,,,,,,,,,popularity,3.0,as-is,298.0,42.0,0.0549194074937047,0.333728422828704,0.5131451279481491,popularity_k3
+new-user onboarding (k revealed ratings),Popularity,,0.098571136433069,,0.3118570623911821,,,,,,,,,,,,,,,popularity,5.0,as-is,298.0,42.0,0.0549194074937047,0.333728422828704,0.5131451279481491,popularity_k5
+new-user onboarding (k revealed ratings),Popularity,,0.098571136433069,,0.3118570623911821,,,,,,,,,,,,,,,popularity,10.0,as-is,298.0,42.0,0.0549194074937047,0.333728422828704,0.5131451279481491,popularity_k10
+new-user onboarding (k revealed ratings),Popularity (demographic),,0.1006787532400773,,0.3251330778398063,,,,,,,,,,,,,,,popularity_demo,0.0,as-is,298.0,42.0,0.0560220103880248,0.3455828078308013,0.5463347588839775,popularity_demo_k0
+new-user onboarding (k revealed ratings),Popularity (demographic),,0.1006787532400773,,0.3251330778398063,,,,,,,,,,,,,,,popularity_demo,1.0,as-is,298.0,42.0,0.0560220103880248,0.3455828078308013,0.5463347588839775,popularity_demo_k1
+new-user onboarding (k revealed ratings),Popularity (demographic),,0.1006787532400773,,0.3251330778398063,,,,,,,,,,,,,,,popularity_demo,3.0,as-is,298.0,42.0,0.0560220103880248,0.3455828078308013,0.5463347588839775,popularity_demo_k3
+new-user onboarding (k revealed ratings),Popularity (demographic),,0.1006787532400773,,0.3251330778398063,,,,,,,,,,,,,,,popularity_demo,5.0,as-is,298.0,42.0,0.0560220103880248,0.3455828078308013,0.5463347588839775,popularity_demo_k5
+new-user onboarding (k revealed ratings),Popularity (demographic),,0.1006787532400773,,0.3251330778398063,,,,,,,,,,,,,,,popularity_demo,10.0,as-is,298.0,42.0,0.0560220103880248,0.3455828078308013,0.5463347588839775,popularity_demo_k10
+new-user onboarding (k revealed ratings),ItemKNN,,0.098571136433069,,0.3118570623911821,,,,,,,,,,,,,,,itemknn,0.0,item-item scores from revealed items,298.0,42.0,0.0549194074937047,0.333728422828704,0.5131451279481491,itemknn_k0
+new-user onboarding (k revealed ratings),ItemKNN,,0.0740580607064572,,0.2451285093969276,,,,,,,,,,,,,,,itemknn,1.0,item-item scores from revealed items,298.0,42.0,0.0449292976817961,0.2628962660797208,0.4033484702276388,itemknn_k1
+new-user onboarding (k revealed ratings),ItemKNN,,0.084732845718039,,0.2776438999632579,,,,,,,,,,,,,,,itemknn,3.0,item-item scores from revealed items,298.0,42.0,0.0461220086831482,0.2953454729665191,0.4622705952827298,itemknn_k3
+new-user onboarding (k revealed ratings),ItemKNN,,0.09915400391364,,0.3083746271843909,,,,,,,,,,,,,,,itemknn,5.0,item-item scores from revealed items,298.0,42.0,0.0565774483693079,0.3214230893253949,0.5194328348631027,itemknn_k5
+new-user onboarding (k revealed ratings),ItemKNN,,0.1259793939158467,,0.3556911885778678,,,,,,,,,,,,,,,itemknn,10.0,item-item scores from revealed items,298.0,42.0,0.0730038740709589,0.3725106372300757,0.5593266629236562,itemknn_k10
+new-user onboarding (k revealed ratings),MF-BPR,,0.0950670052713911,,0.3095861011145752,,,,,,,,,,,,,,,mf,0.0,cold-user vector,298.0,42.0,0.0533345784352527,0.32644072962572,0.5114432636979751,mf_k0
+new-user onboarding (k revealed ratings),MF-BPR,,0.0812005196338955,,0.2489423241863121,,,,,,,,,,,,,,,mf,1.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0436605709400715,0.2605015222474155,0.4163328276978099,mf_k1
+new-user onboarding (k revealed ratings),MF-BPR,,0.0871387921063015,,0.2810083025304103,,,,,,,,,,,,,,,mf,3.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0505918344880053,0.3009905237694605,0.4923303013699256,mf_k3
+new-user onboarding (k revealed ratings),MF-BPR,,0.1006436420747258,,0.3061304947239263,,,,,,,,,,,,,,,mf,5.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0592018383061411,0.3243504956982724,0.5190661071641341,mf_k5
+new-user onboarding (k revealed ratings),MF-BPR,,0.1214445542801804,,0.3269779940230002,,,,,,,,,,,,,,,mf,10.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0686866521003919,0.3367272211293147,0.507339164617044,mf_k10
+new-user onboarding (k revealed ratings),Two-Tower,,0.0958550010771279,,0.3097529035638671,,,,,,,,,,,,,,,two_tower,0.0,cold-user vector,298.0,42.0,0.0509304624791848,0.3270420361396457,0.515366080895046,two_tower_k0
+new-user onboarding (k revealed ratings),Two-Tower,,0.0738427960927206,,0.2305283015547244,,,,,,,,,,,,,,,two_tower,1.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0378817988433444,0.2390125411405609,0.3889937375284737,two_tower_k1
+new-user onboarding (k revealed ratings),Two-Tower,,0.0809955335679188,,0.2541953291016781,,,,,,,,,,,,,,,two_tower,3.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.04417142522045,0.266988990550269,0.4328881290206274,two_tower_k3
+new-user onboarding (k revealed ratings),Two-Tower,,0.0966217446637645,,0.2834250749416877,,,,,,,,,,,,,,,two_tower,5.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0528604825508038,0.2931365085759093,0.4807912543950787,two_tower_k5
+new-user onboarding (k revealed ratings),Two-Tower,,0.1221033533426636,,0.3295287330678628,,,,,,,,,,,,,,,two_tower,10.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0682042896783136,0.340881854190539,0.5383155445403508,two_tower_k10
+new-user onboarding (k revealed ratings),Node2Vec,,0.097642984044695,,0.3098282259313006,,,,,,,,,,,,,,,node2vec,0.0,cold-user vector,298.0,42.0,0.0547860432210591,0.3280107262120869,0.5087967034575747,node2vec_k0
+new-user onboarding (k revealed ratings),Node2Vec,,0.0781252108795859,,0.2533379824963248,,,,,,,,,,,,,,,node2vec,1.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0449786620497813,0.269036131342206,0.4122559354586075,node2vec_k1
+new-user onboarding (k revealed ratings),Node2Vec,,0.0803598281766938,,0.2562516805677665,,,,,,,,,,,,,,,node2vec,3.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0467102311996247,0.273017344736418,0.4431833572713433,node2vec_k3
+new-user onboarding (k revealed ratings),Node2Vec,,0.1026463972678282,,0.2897628344593679,,,,,,,,,,,,,,,node2vec,5.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0564242539141309,0.3026229120482722,0.4794737990375314,node2vec_k5
+new-user onboarding (k revealed ratings),Node2Vec,,0.1240750503164854,,0.3282500052575127,,,,,,,,,,,,,,,node2vec,10.0,fold-in: user vector fitted on revealed items,298.0,42.0,0.0689371687682684,0.3406799224907674,0.5213980429672764,node2vec_k10
+new-user onboarding (k revealed ratings),GraphSAGE,,0.0997068778865334,,0.3130206320712014,,,,,,,,,,,,,,,graphsage,0.0,inductive: revealed edges added to the graph,298.0,42.0,0.0515764704000479,0.3228193003847969,0.5127937191270924,graphsage_k0
+new-user onboarding (k revealed ratings),GraphSAGE,,0.0657299757325312,,0.2245881932537686,,,,,,,,,,,,,,,graphsage,1.0,inductive: revealed edges added to the graph,298.0,42.0,0.0405742746509975,0.2452476834877686,0.4163108863527808,graphsage_k1
+new-user onboarding (k revealed ratings),GraphSAGE,,0.0946630555304121,,0.2933901206339515,,,,,,,,,,,,,,,graphsage,3.0,inductive: revealed edges added to the graph,298.0,42.0,0.0551183309169614,0.3142205282901796,0.488014086648559,graphsage_k3
+new-user onboarding (k revealed ratings),GraphSAGE,,0.1081164104445255,,0.323984138457808,,,,,,,,,,,,,,,graphsage,5.0,inductive: revealed edges added to the graph,298.0,42.0,0.0616422195755579,0.3432204192511722,0.5405288346607668,graphsage_k5
+new-user onboarding (k revealed ratings),GraphSAGE,,0.1193290335286992,,0.3452994212259517,,,,,,,,,,,,,,,graphsage,10.0,inductive: revealed edges added to the graph,298.0,42.0,0.0662992644508652,0.3631632376749832,0.5589220229680626,graphsage_k10
+new-user onboarding (k revealed ratings),GAT,,0.0950537441995673,,0.3071594375720227,,,,,,,,,,,,,,,gat,0.0,inductive: revealed edges added to the graph,298.0,42.0,0.0492196925606985,0.3149805033529036,0.5082563766371713,gat_k0
+new-user onboarding (k revealed ratings),GAT,,0.0811673249114417,,0.2510613769075799,,,,,,,,,,,,,,,gat,1.0,inductive: revealed edges added to the graph,298.0,42.0,0.0461486828154221,0.2655939190779787,0.4459642092063862,gat_k1
+new-user onboarding (k revealed ratings),GAT,,0.0859352942962397,,0.2693602388757769,,,,,,,,,,,,,,,gat,3.0,inductive: revealed edges added to the graph,298.0,42.0,0.0492949541125393,0.2872885544480666,0.4749204702840396,gat_k3
+new-user onboarding (k revealed ratings),GAT,,0.1099198400044901,,0.3083161130481019,,,,,,,,,,,,,,,gat,5.0,inductive: revealed edges added to the graph,298.0,42.0,0.0643671633326825,0.3259019249810325,0.516190487604273,gat_k5
+new-user onboarding (k revealed ratings),GAT,,0.1264393042072464,,0.3410018612026111,,,,,,,,,,,,,,,gat,10.0,inductive: revealed edges added to the graph,298.0,42.0,0.0732079849179665,0.3543419466120134,0.5601025706977147,gat_k10
+new-user onboarding (k revealed ratings),LightGCN,,0.0957253563081834,,0.3044081078012889,,,,,,,,,,,,,,,lightgcn,0.0,inductive: revealed edges added to the graph,298.0,42.0,0.0509578033258109,0.313138506723103,0.4870971858915217,lightgcn_k0
+new-user onboarding (k revealed ratings),LightGCN,,0.0932681170879515,,0.3012007864087821,,,,,,,,,,,,,,,lightgcn,1.0,inductive: revealed edges added to the graph,298.0,42.0,0.0479798258568705,0.3098667369100869,0.4884904759104792,lightgcn_k1
+new-user onboarding (k revealed ratings),LightGCN,,0.0932906770512084,,0.3001515197875543,,,,,,,,,,,,,,,lightgcn,3.0,inductive: revealed edges added to the graph,298.0,42.0,0.0494124479324216,0.3110176999103657,0.4702840184146155,lightgcn_k3
+new-user onboarding (k revealed ratings),LightGCN,,0.0955988523269535,,0.306684155058933,,,,,,,,,,,,,,,lightgcn,5.0,inductive: revealed edges added to the graph,298.0,42.0,0.0491819205329194,0.3141301290043084,0.4977952656864702,lightgcn_k5
+new-user onboarding (k revealed ratings),LightGCN,,0.100672110804512,,0.3163793871817695,,,,,,,,,,,,,,,lightgcn,10.0,inductive: revealed edges added to the graph,298.0,42.0,0.0505267204131666,0.3204264076265334,0.5195413691730728,lightgcn_k10
+new-user onboarding (k revealed ratings),Hybrid (id+content+graph),,0.0974687875061559,,0.314744501734033,,,,,,,,,,,,,,,hybrid,0.0,inductive: revealed edges added to the graph,298.0,42.0,0.0519794831748912,0.3270117488691917,0.4993685916864435,hybrid_k0
+new-user onboarding (k revealed ratings),Hybrid (id+content+graph),,0.0979880927231556,,0.3128042507509924,,,,,,,,,,,,,,,hybrid,1.0,inductive: revealed edges added to the graph,298.0,42.0,0.050737386175915,0.3215888710472496,0.4790527433811089,hybrid_k1
+new-user onboarding (k revealed ratings),Hybrid (id+content+graph),,0.0969568100655006,,0.3126735881953452,,,,,,,,,,,,,,,hybrid,3.0,inductive: revealed edges added to the graph,298.0,42.0,0.0511336526863315,0.3243464134504106,0.476410703136865,hybrid_k3
+new-user onboarding (k revealed ratings),Hybrid (id+content+graph),,0.1012100933548864,,0.3192949330639654,,,,,,,,,,,,,,,hybrid,5.0,inductive: revealed edges added to the graph,298.0,42.0,0.0541324875774468,0.3332512610234048,0.4986244002849807,hybrid_k5
+new-user onboarding (k revealed ratings),Hybrid (id+content+graph),,0.1056204464913759,,0.3336657345889924,,,,,,,,,,,,,,,hybrid,10.0,inductive: revealed edges added to the graph,298.0,42.0,0.0563579198824998,0.3496268903279722,0.5409743186677132,hybrid_k10

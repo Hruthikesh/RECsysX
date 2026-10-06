@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recsysx"
+version = "0.1.0"
+description = "Comparing collaborative filtering and graph-based recommendation on MovieLens-1M"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+    "postgres: needs a running PostgreSQL server (DATABASE_URL)",
+    "slow: trains a small model, takes a few seconds",
+]

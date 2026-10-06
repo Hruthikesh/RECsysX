@@ -1,0 +1,36 @@
+{
+  "n_user_nodes": 6040,
+  "n_item_nodes": 3706,
+  "n_nodes": 9746,
+  "n_edges": 463017,
+  "bipartite_density": 0.020684955129144433,
+  "avg_degree_all": 95.01683044433594,
+  "user_degree": {
+    "mean": 76.65844370860927,
+    "median": 46.0,
+    "p90": 186.0,
+    "max": 1209.0,
+    "min": 0.0
+  },
+  "item_degree": {
+    "mean": 124.93712898003238,
+    "median": 34.0,
+    "p90": 352.0,
+    "max": 2423.0,
+    "min": 0.0
+  },
+  "isolated_users": 644,
+  "isolated_items": 237,
+  "users_degree_le_5": 62,
+  "items_degree_le_5": 553,
+  "connected_components": 882,
+  "non_trivial_components": 1,
+  "largest_component_nodes": 8865,
+  "users_two_hop_neighbours": {
+    "mean": 4670.954410674573,
+    "median": 4915.0,
+    "p90": 5318.0,
+    "max": 5394.0,
+    "min": 85.0
+  }
+}

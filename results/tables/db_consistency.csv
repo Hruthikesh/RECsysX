@@ -1,0 +1,14 @@
+check,postgres,pandas,match
+n_users,6040,6040,True
+n_items,3706,3706,True
+n_ratings,1000209,1000209,True
+n_train_positives,463017,463017,True
+n_eval_positives_val_test_users,112264,112264,True
+matrix_density,0.044683625622312845,0.044683625622312845,True
+latest_train_rating_before_first_eval,True,True,True
+cold_test_users_without_train_positives,0,0,True
+top_item_by_train_positives,2651,2651,True
+share_of_positives_on_head_items,0.74803948883086366159,0.7480394888308637,True
+median_user_train_ratings,86.0,86.0,True
+drama_share_of_items,0.40286022665947112790,0.40286022665947113,True
+ratings_table_roundtrip_identical,1000209,1000209,True

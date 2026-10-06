@@ -1,0 +1,7 @@
+{
+  "spearman_diff_vs_mean_item_degree": -0.012841610996608256,
+  "p_value": 0.761721091930253,
+  "spearman_diff_vs_user_degree": -0.00313251313666415,
+  "p_value_user_degree": 0.9410395591441356,
+  "n_users": 560
+}

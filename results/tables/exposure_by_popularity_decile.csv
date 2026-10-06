@@ -1,0 +1,141 @@
+list,popularity_decile,exposure_share
+Popularity,1,1.0
+Popularity,2,0.0
+Popularity,3,0.0
+Popularity,4,0.0
+Popularity,5,0.0
+Popularity,6,0.0
+Popularity,7,0.0
+Popularity,8,0.0
+Popularity,9,0.0
+Popularity,10,0.0
+Popularity (recent),1,0.9994324631101021
+Popularity (recent),2,0.0005675368898978433
+Popularity (recent),3,0.0
+Popularity (recent),4,0.0
+Popularity (recent),5,0.0
+Popularity (recent),6,0.0
+Popularity (recent),7,0.0
+Popularity (recent),8,0.0
+Popularity (recent),9,0.0
+Popularity (recent),10,0.0
+Popularity (demographic),1,0.9970488081725312
+Popularity (demographic),2,0.0029511918274687855
+Popularity (demographic),3,0.0
+Popularity (demographic),4,0.0
+Popularity (demographic),5,0.0
+Popularity (demographic),6,0.0
+Popularity (demographic),7,0.0
+Popularity (demographic),8,0.0
+Popularity (demographic),9,0.0
+Popularity (demographic),10,0.0
+ItemKNN,1,0.9931895573212258
+ItemKNN,2,0.0061293984108967085
+ItemKNN,3,0.0005675368898978433
+ItemKNN,4,0.00011350737797956867
+ItemKNN,5,0.0
+ItemKNN,6,0.0
+ItemKNN,7,0.0
+ItemKNN,8,0.0
+ItemKNN,9,0.0
+ItemKNN,10,0.0
+MF-BPR,1,0.961066969353008
+MF-BPR,2,0.03257661748013621
+MF-BPR,3,0.005334846765039728
+MF-BPR,4,0.000681044267877412
+MF-BPR,5,0.00011350737797956867
+MF-BPR,6,0.00022701475595913735
+MF-BPR,7,0.0
+MF-BPR,8,0.0
+MF-BPR,9,0.0
+MF-BPR,10,0.0
+Two-Tower,1,0.8937570942111237
+Two-Tower,2,0.06912599318955732
+Two-Tower,3,0.01611804767309875
+Two-Tower,4,0.0021566401816118046
+Two-Tower,5,0.000340522133938706
+Two-Tower,6,0.0
+Two-Tower,7,0.0
+Two-Tower,8,0.0
+Two-Tower,9,0.0
+Two-Tower,10,0.018501702610669694
+Node2Vec,1,0.9047673098751419
+Node2Vec,2,0.02656072644721907
+Node2Vec,3,0.005221339387060159
+Node2Vec,4,0.0018161180476730988
+Node2Vec,5,0.0019296254256526673
+Node2Vec,6,0.0019296254256526673
+Node2Vec,7,0.00170261066969353
+Node2Vec,8,0.0011350737797956867
+Node2Vec,9,0.002383654937570942
+Node2Vec,10,0.0525539160045403
+GraphSAGE,1,0.9146424517593643
+GraphSAGE,2,0.05993189557321226
+GraphSAGE,3,0.015437003405221339
+GraphSAGE,4,0.004880817253121453
+GraphSAGE,5,0.002383654937570942
+GraphSAGE,6,0.0015891032917139615
+GraphSAGE,7,0.000340522133938706
+GraphSAGE,8,0.000340522133938706
+GraphSAGE,9,0.00022701475595913735
+GraphSAGE,10,0.00022701475595913735
+GAT,1,0.9121452894438139
+GAT,2,0.060385925085130535
+GAT,3,0.015096481271282634
+GAT,4,0.0061293984108967085
+GAT,5,0.0038592508513053347
+GAT,6,0.000681044267877412
+GAT,7,0.0009080590238365494
+GAT,8,0.0005675368898978433
+GAT,9,0.00022701475595913735
+GAT,10,0.0
+LightGCN,1,0.9532349602724177
+LightGCN,2,0.03779795686719637
+LightGCN,3,0.007264472190692395
+LightGCN,4,0.0012485811577752554
+LightGCN,5,0.000340522133938706
+LightGCN,6,0.0
+LightGCN,7,0.00011350737797956867
+LightGCN,8,0.0
+LightGCN,9,0.0
+LightGCN,10,0.0
+Hybrid (id+content+graph),1,0.961066969353008
+Hybrid (id+content+graph),2,0.029171396140749147
+Hybrid (id+content+graph),3,0.00681044267877412
+Hybrid (id+content+graph),4,0.0015891032917139615
+Hybrid (id+content+graph),5,0.0009080590238365494
+Hybrid (id+content+graph),6,0.00011350737797956867
+Hybrid (id+content+graph),7,0.00022701475595913735
+Hybrid (id+content+graph),8,0.00011350737797956867
+Hybrid (id+content+graph),9,0.0
+Hybrid (id+content+graph),10,0.0
+"Ranker (xgb, temporal)",1,0.9834279228149829
+"Ranker (xgb, temporal)",2,0.01452894438138479
+"Ranker (xgb, temporal)",3,0.0018161180476730988
+"Ranker (xgb, temporal)",4,0.00022701475595913735
+"Ranker (xgb, temporal)",5,0.0
+"Ranker (xgb, temporal)",6,0.0
+"Ranker (xgb, temporal)",7,0.0
+"Ranker (xgb, temporal)",8,0.0
+"Ranker (xgb, temporal)",9,0.0
+"Ranker (xgb, temporal)",10,0.0
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",1,0.9846765039727582
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",2,0.013393870601589104
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",3,0.00170261066969353
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",4,0.00022701475595913735
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",5,0.0
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",6,0.0
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",7,0.0
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",8,0.0
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",9,0.0
+"Ranker (xgb, temporal) + MMR (lambda=0.9)",10,0.0
+Actual test positives,1,0.49216537662828014
+Actual test positives,2,0.21147476273019034
+Actual test positives,3,0.12403247121011894
+Actual test positives,4,0.07281994954262275
+Actual test positives,5,0.04335215473595689
+Actual test positives,6,0.025983833044433385
+Actual test positives,7,0.015377486398819229
+Actual test positives,8,0.008495374740419104
+Actual test positives,9,0.004479379408584619
+Actual test positives,10,0.0018192115605745963

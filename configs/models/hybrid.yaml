@@ -1,0 +1,21 @@
+# Content + graph + id hybrid. conv/num_layers/lr/... are taken from the tuned GraphSAGE, GAT or
+# LightGCN config, whichever does best with content on validation (configs/selected.yaml, suites.py)
+model: gnn
+conv: sage
+num_layers: 2
+embedding_dim: 64
+aggr: mean
+heads: 4
+jk: mean
+dropout: 0.1
+use_id: true
+use_content: true
+remove_target_edges: true
+user_id_dropout: 0.1
+item_id_dropout: 0.1    # needed so new items are represented through their content
+l2_reg: 0.0001
+lr: 0.001
+batch_size: 8192
+epochs: 200
+patience: 20
+num_negatives: 1

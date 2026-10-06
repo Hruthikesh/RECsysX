@@ -1,0 +1,14 @@
+{
+  "mean_pairwise_cosine_genre_propagation": {
+    "users_after_1_steps": 0.7116709320562222,
+    "users_after_3_steps": 0.9861088427064726,
+    "users_after_5_steps": 0.9991404477241426,
+    "random_movie_pairs": 0.22101221978664398
+  },
+  "node2vec_walk_return_share": {
+    "p=1,q=1": 0.008710525929927826,
+    "p=4,q=1": 0.009526316076517105,
+    "p=0.25,q=1": 0.033868420869112015,
+    "p=1,q=4": 0.03402631729841232
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "retrieval_ms_mean": 0.797397498099599,
+  "retrieval_ms_median": 0.7613000052515417,
+  "retrieval_ms_p95": 1.2863349998951883,
+  "features_ms_mean": 7.410770999849774,
+  "features_ms_median": 7.147550000809133,
+  "features_ms_p95": 8.594455005368218,
+  "ranking_ms_mean": 7.760180001205299,
+  "ranking_ms_median": 7.500799998524599,
+  "ranking_ms_p95": 9.634895014460199,
+  "total_ms_mean": 15.968348499154672,
+  "total_ms_median": 15.418599999975413,
+  "total_ms_p95": 18.66821498406352,
+  "ranker": "xgb",
+  "n_candidates": 200,
+  "retriever": "hybrid",
+  "device": "cpu",
+  "n_requests": 200
+}

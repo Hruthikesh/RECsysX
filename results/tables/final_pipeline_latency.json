@@ -1,0 +1,20 @@
+{
+  "history_ms_mean": 0.0014254997950047255,
+  "retrieval_ms_mean": 0.76165700040292,
+  "features_ms_mean": 8.071609000617173,
+  "ranking_ms_mean": 7.091256999119651,
+  "rerank_ms_mean": 2.749847499653697,
+  "total_ms_mean": 18.675795999588445,
+  "history_ms_p95": 0.001900014467537403,
+  "retrieval_ms_p95": 1.0933099998510443,
+  "features_ms_p95": 10.174025008745952,
+  "ranking_ms_p95": 8.7226000148803,
+  "rerank_ms_p95": 3.30617498839274,
+  "total_ms_p95": 22.300385010021273,
+  "n_requests": 200,
+  "history_source": "memory",
+  "retriever": "hybrid",
+  "ranker": "xgb (temporal)",
+  "n_candidates": 200,
+  "mmr_lambda": 0.9
+}

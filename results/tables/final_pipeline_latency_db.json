@@ -1,0 +1,20 @@
+{
+  "history_ms_mean": 1.122107000410324,
+  "retrieval_ms_mean": 0.7506414987437893,
+  "features_ms_mean": 7.68966900111991,
+  "ranking_ms_mean": 6.92322149843676,
+  "rerank_ms_mean": 2.666082000650931,
+  "total_ms_mean": 19.151720999361714,
+  "history_ms_p95": 1.6394999838666984,
+  "retrieval_ms_p95": 1.1217250124900602,
+  "features_ms_p95": 9.688970021670684,
+  "ranking_ms_p95": 9.419079982035328,
+  "rerank_ms_p95": 3.4412000168231307,
+  "total_ms_p95": 22.796674993878693,
+  "n_requests": 200,
+  "history_source": "postgres",
+  "retriever": "hybrid",
+  "ranker": "xgb (temporal)",
+  "n_candidates": 200,
+  "mmr_lambda": 0.9
+}
